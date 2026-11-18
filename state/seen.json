@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-11-18T12:48:26Z",
-  "count": 14,
+  "last_run_utc": "2026-11-18T15:16:08Z",
+  "count": 29,
   "seen_ids": [
     "certfr-avis-b3619da91f086d7f",
     "cisa-kev-0f9d79c9d82bd432",
@@ -15,6 +15,21 @@
     "certfr-avis-71804e42213dd158",
     "certfr-avis-0049f016caa8da9c",
     "certfr-avis-9efe82c86887dde5",
-    "certfr-avis-45cf023f8f898323"
+    "certfr-avis-45cf023f8f898323",
+    "it-connect-secu-c50f66fb685c5170",
+    "it-connect-secu-34996831a13cd520",
+    "it-connect-secu-8609633983669027",
+    "it-connect-secu-609ee5a6dbefcfbc",
+    "it-connect-secu-93adcbc8953191a1",
+    "it-connect-secu-cd9d547bac267a6a",
+    "it-connect-secu-1b23d69c37a6a9d9",
+    "bleepingcomputer-d67eac83c07d5e03",
+    "bleepingcomputer-4ad805e5f0ad90e3",
+    "bleepingcomputer-63de09c8195a393a",
+    "bleepingcomputer-b17f139155266277",
+    "bleepingcomputer-92cc644433b5bf20",
+    "bleepingcomputer-dfdd55b428a4f4dd",
+    "bleepingcomputer-adea2fa079ed27be",
+    "bleepingcomputer-74ef16eef36f9a93"
   ]
 }

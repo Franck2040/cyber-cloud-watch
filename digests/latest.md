@@ -1,20 +1,21 @@
-# Veille Cyber & Cloud (2026-11-18 12:48 UTC)
+# Briefing Cyber & Cloud (2026-11-18 15:16 UTC)
 
-Mode : `all` | Nouvelles alertes : **14**
+Mode : `all` | Sujets retenus : **15**
 
-| Priorité | Source | Titre | Date |
-| :--- | :--- | :--- | :--- |
-| **CRITIQUE** | CERT-FR Avis (ANSSI) | [Multiples vulnérabilités dans les produits Palo Alto Networks (12 novembre 2026)](https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1521/) | 2026-11-12 00:00 UTC |
-| **CRITIQUE** | CISA KEV (Exploitation active) | [CVE-2026-114713 - UnrealIRCd UnrealIRCd : UnrealIRCd Improper Neutralization of Delimiters Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-114713) | 2026-11-13 |
-| **CRITIQUE** | CISA KEV (Exploitation active) | [CVE-2026-123039 - Check Point Multiple Products : Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-123039) | 2026-11-13 |
-| **CRITIQUE** | CERT-FR Avis (ANSSI) | [Multiples vulnérabilités dans PostgreSQL (13 novembre 2026)](https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1530/) | 2026-11-13 00:00 UTC |
-| **CRITIQUE** | CERT-FR Avis (ANSSI) | [Multiples vulnérabilités dans le noyau Linux de Red Hat (13 novembre 2026)](https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1536/) | 2026-11-13 00:00 UTC |
-| **CRITIQUE** | CERT-FR Avis (ANSSI) | [Multiples vulnérabilités dans le noyau Linux d'Ubuntu (13 novembre 2026)](https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1537/) | 2026-11-13 00:00 UTC |
-| **CRITIQUE** | CERT-FR Avis (ANSSI) | [Multiples vulnérabilités dans le noyau Linux de Debian (13 novembre 2026)](https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1538/) | 2026-11-13 00:00 UTC |
-| **CRITIQUE** | CERT-FR Avis (ANSSI) | [Vulnérabilité dans VMware Tanzu (16 novembre 2026)](https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1543/) | 2026-11-16 00:00 UTC |
-| **CRITIQUE** | CISA KEV (Exploitation active) | [CVE-2026-115731 - Perforce Puppet Enterprise : Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-115731) | 2026-11-17 |
-| **CRITIQUE** | CERT-FR Avis (ANSSI) | [Multiples vulnérabilités dans Microsoft SharePoint (17 novembre 2026)](https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1555/) | 2026-11-17 00:00 UTC |
-| **HAUTE** | CERT-FR Avis (ANSSI) | [Vulnérabilité dans NetApp ONTAP tools pour VMware vSphere 10 (12 novembre 2026)](https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1518/) | 2026-11-12 00:00 UTC |
-| **HAUTE** | CERT-FR Avis (ANSSI) | [Multiples vulnérabilités dans VMware Tanzu Greenplum (13 novembre 2026)](https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1527/) | 2026-11-13 00:00 UTC |
-| **HAUTE** | CERT-FR Avis (ANSSI) | [Multiples vulnérabilités dans le noyau Linux de SUSE (13 novembre 2026)](https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1535/) | 2026-11-13 00:00 UTC |
-| **HAUTE** | CERT-FR Avis (ANSSI) | [Multiples vulnérabilités dans Microsoft Edge (16 novembre 2026)](https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1546/) | 2026-11-16 00:00 UTC |
+| Niveau | Type | Source | Sujet | Date |
+| :--- | :--- | :--- | :--- | :--- |
+| **ACTU** | news | IT-Connect Sécurité (FR) | [La faille Java4Shell (CVE-2026-114938) menace Keycloak, Jira, Jenkins, etc.](https://www.it-connect.fr/java4shell-faille-critique-java-openjdk/) | 2026-11-18 08:44 UTC |
+| **ACTU** | news | IT-Connect Sécurité (FR) | [Microsoft Perception : les agents IA spécialisés dans la cybersécurité sont disponibles !](https://www.it-connect.fr/microsoft-perception-disponibilite-generale-ignite/) | 2026-11-18 07:53 UTC |
+| **ACTU CLÉ** | news | IT-Connect Sécurité (FR) | [Cyberattaque : Air France, IKEA, HSBC, Zoom… De nombreux sites ont servi du code malveillant à leurs visiteurs](https://www.it-connect.fr/optimizely-pirate-scripts-malveillants-cnn-bbc-zoom/) | 2026-11-17 19:23 UTC |
+| **ACTU** | news | IT-Connect Sécurité (FR) | [NoisyTCP : cette faille du noyau Linux vieille de 11 ans permet de faire planter un serveur à distance](https://www.it-connect.fr/noisytcp-cve-2026-99288-faille-noyau-linux-tcp/) | 2026-11-17 07:58 UTC |
+| **ACTU CLÉ** | news | IT-Connect Sécurité (FR) | [GTA 6 : la Nouvelle-Zélande jouera 12 heures avant la France, attention aux arnaques](https://www.it-connect.fr/gta-6-heure-sortie-nouvelle-zelande-arnaques/) | 2026-11-17 06:25 UTC |
+| **ACTU** | news | IT-Connect Sécurité (FR) | [PostgreSQL a corrigé 52 failles de sécurité, dont une vieille de 22 ans (CVE-2026-6460)](https://www.it-connect.fr/postgresql-52-failles-cve-2026-6460-mise-a-jour/) | 2026-11-17 05:00 UTC |
+| **ACTU** | news | IT-Connect Sécurité (FR) | [Maileva (La Poste) : les noms et adresses de 22 millions de personnes dérobés lors d’une cyberattaque](https://www.it-connect.fr/maileva-la-poste-fuite-donnees-22-millions-personnes/) | 2026-11-16 19:47 UTC |
+| **ACTU** | news | BleepingComputer | [Apache warns of Roller RCE vulnerability exploited in attacks](https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/) | 2026-11-18 10:35 UTC |
+| **ACTU** | news | BleepingComputer | [Microsoft announces Windows Server 2028 with hardened security](https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/) | 2026-11-18 09:24 UTC |
+| **ACTU** | news | BleepingComputer | [British Scattered Spider hacker sentenced to 6 years in prison](https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/) | 2026-11-18 08:24 UTC |
+| **ACTU** | news | BleepingComputer | [Critical Java4Shell flaw allows RCE attacks on major Java applications](https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/) | 2026-11-17 23:04 UTC |
+| **ACTU** | news | BleepingComputer | [Cloud keys leaked in Docker Hub images are stolen within seconds](https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/) | 2026-11-17 21:27 UTC |
+| **ACTU** | news | BleepingComputer | [Japan takes Fugaku supercomputer offlline after cyberattack](https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/) | 2026-11-17 20:51 UTC |
+| **ACTU** | news | BleepingComputer | [Apple reports outages affecting iCloud Mail, AppleCare and more](https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/) | 2026-11-17 19:24 UTC |
+| **ACTU** | news | BleepingComputer | [Researchers hijack Hugging Face account for popular Kokoro AI model](https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/) | 2026-11-17 18:21 UTC |
