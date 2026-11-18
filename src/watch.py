@@ -43,9 +43,9 @@ ARTICLE_USER_AGENT = (
 MAX_SEEN_IDS = 2000
 
 DEFAULT_GEMINI_MODELS = [
+    "gemini-3.5-flash-lite",
     "gemini-3.8-flash",
     "gemini-3.6-flash",
-    "gemini-3.5-flash-lite",
     "gemini-3.1-flash-lite",
 ]
 
@@ -840,6 +840,7 @@ def generate_gemini_briefing(items: list[AlertItem], mode: str, now: datetime, a
         "   - Qui est touché ou quel produit/service est concerné.\n"
         "   - Ce qui s'est passé exactement (attaque, vecteur, ou faille CVE précise).\n"
         "   - L'impact concret et la mesure de protection ou le correctif recommandé.\n"
+        "   - Si deux entrées du JSON traitent exactement de la même faille CVE (ex. un article et une alerte CERT-FR), fusionne-les en un seul point complet en mentionnant les deux sources.\n"
         "5. MISE EN PAGE TELEGRAM HTML UNIQUEMENT (balises autorisées : <b>, <i>, <a href=\"...\">). Échappe & en &amp; dans le texte. Zéro émoji, zéro '---', zéro tiret cadratin '—', zéro bloc ```html.\n"
         "6. STRUCTURE EXACTE À RESPECTER :\n\n"
         f"<b>JOURNAL CYBER &amp; CLOUD · {now.strftime('%d/%m/%Y')}</b>\n"
