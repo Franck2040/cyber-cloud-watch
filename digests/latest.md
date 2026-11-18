@@ -1,21 +1,21 @@
-# Journal Cyber & Cloud (2026-11-18 20:52 UTC)
+# Journal Cyber & Cloud (2026-11-18 23:17 UTC)
 
 Mode : `all` | Sujets retenus : **15**
 
 | Niveau | Type | Source | Sujet | Date |
 | :--- | :--- | :--- | :--- | :--- |
-| **ACTU** | news | IT-Connect | [NGINX2Root : deux failles critiques permettent de prendre le contrôle d’un serveur NGINX](https://www.it-connect.fr/nginx2root-failles-cve-2026-123007-rce/) | 2026-11-18 19:59 UTC |
-| **ACTU** | news | IT-Connect | [FBI : avec ARTEX, certaines intrusions atteignent un accès privilégié en moins de trois heures](https://www.it-connect.fr/fbi-artex-framework-ia-cyberattaques/) | 2026-11-18 15:45 UTC |
-| **ACTU CLÉ** | news | IT-Connect | [La faille Java4Shell (CVE-2026-114938) menace Keycloak, Jira, Jenkins, etc.](https://www.it-connect.fr/java4shell-faille-critique-java-openjdk/) | 2026-11-18 08:44 UTC |
-| **ACTU CLÉ** | news | IT-Connect | [Microsoft Perception : les agents IA spécialisés dans la cybersécurité sont disponibles !](https://www.it-connect.fr/microsoft-perception-disponibilite-generale-ignite/) | 2026-11-18 07:53 UTC |
-| **ACTU CLÉ** | news | IT-Connect | [Cyberattaque : Air France, IKEA, HSBC, Zoom… De nombreux sites ont servi du code malveillant à leurs visiteurs](https://www.it-connect.fr/optimizely-pirate-scripts-malveillants-cnn-bbc-zoom/) | 2026-11-17 19:23 UTC |
-| **ACTU** | news | IT-Connect | [NoisyTCP : cette faille du noyau Linux vieille de 11 ans permet de faire planter un serveur à distance](https://www.it-connect.fr/noisytcp-cve-2026-99288-faille-noyau-linux-tcp/) | 2026-11-17 07:58 UTC |
-| **ACTU** | news | IT-Connect | [PostgreSQL a corrigé 52 failles de sécurité, dont une vieille de 22 ans (CVE-2026-6460)](https://www.it-connect.fr/postgresql-52-failles-cve-2026-6460-mise-a-jour/) | 2026-11-17 05:00 UTC |
-| **ACTU CLÉ** | news | IT-Connect | [Maileva (La Poste) : les noms et adresses de 22 millions de personnes dérobés lors d’une cyberattaque](https://www.it-connect.fr/maileva-la-poste-fuite-donnees-22-millions-personnes/) | 2026-11-16 19:47 UTC |
-| **ACTU CLÉ** | news | BleepingComputer | [Data breach impacts 40 Irish credit unions in reported IT provider hack](https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/) | 2026-11-18 19:39 UTC |
-| **ACTU CLÉ** | news | BleepingComputer | [Microsoft’s Agent Framework PyPI package compromised to steal credentials](https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/) | 2026-11-18 16:58 UTC |
-| **ACTU CLÉ** | news | BleepingComputer | [Apache warns of Roller RCE vulnerability exploited in attacks](https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/) | 2026-11-18 10:35 UTC |
-| **ACTU** | news | BleepingComputer | [Microsoft announces Windows Server 2028 with hardened security](https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/) | 2026-11-18 09:24 UTC |
-| **ACTU** | news | BleepingComputer | [British Scattered Spider hacker sentenced to 6 years in prison](https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/) | 2026-11-18 08:24 UTC |
-| **ACTU CLÉ** | news | BleepingComputer | [Critical Java4Shell flaw allows RCE attacks on major Java applications](https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/) | 2026-11-17 23:04 UTC |
-| **ACTU** | news | BleepingComputer | [Cloud keys leaked in Docker Hub images are stolen within seconds](https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/) | 2026-11-17 21:27 UTC |
+| **ACTU CLÉ** | news | BleepingComputer | [Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms](https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/) | 2026-11-18 23:08 UTC |
+| **ACTU CLÉ** | news | BleepingComputer | [Tor releases emergency update amid ongoing DDoS attack](https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/) | 2026-11-17 18:04 UTC |
+| **ACTU CLÉ** | news | The Hacker News | [10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers](https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html) | 2026-11-18 18:31 UTC |
+| **ACTU CLÉ** | news | The Hacker News | [F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE](https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html) | 2026-11-18 18:15 UTC |
+| **ACTU CLÉ** | news | The Hacker News | [Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required](https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html) | 2026-11-18 17:10 UTC |
+| **ACTU** | news | The Hacker News | [New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks](https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html) | 2026-11-18 14:11 UTC |
+| **ACTU** | news | The Hacker News | [New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years](https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html) | 2026-11-18 12:28 UTC |
+| **ACTU** | news | The Hacker News | [AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor](https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html) | 2026-11-18 12:15 UTC |
+| **ACTU CLÉ** | news | The Hacker News | [Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More](https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html) | 2026-11-18 11:55 UTC |
+| **ACTU** | news | The Hacker News | [Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are](https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html) | 2026-11-18 11:03 UTC |
+| **ACTU CLÉ** | news | The Hacker News | [Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers](https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html) | 2026-11-18 08:24 UTC |
+| **ACTU** | news | The Hacker News | [CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution](https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html) | 2026-11-18 08:24 UTC |
+| **ACTU CLÉ** | news | The Hacker News | [Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials](https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html) | 2026-11-18 06:45 UTC |
+| **ACTU CLÉ** | news | The Hacker News | [Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization](https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html) | 2026-11-18 05:58 UTC |
+| **ACTU CLÉ** | news | The Hacker News | [Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses](https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html) | 2026-11-17 19:34 UTC |
