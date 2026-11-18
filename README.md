@@ -1,70 +1,37 @@
-# Cyber & Cloud Watch
+# Cyber & Cloud Watch (v2 · Briefing Oral)
 
-Veille automatisée **Cybersécurité & Pannes Cloud** à **0 €** (sans serveur à maintenir), propulsée par **GitHub Actions**, avec alertes **Telegram**, archivage optionnel **Notion** et digests Markdown versionnés dans `digests/`.
+Veille automatisée **Cybersécurité & Pannes Cloud** à **0 €** (sans serveur), propulsée par **GitHub Actions**, livrée en **briefing digeste de 45 secondes sur Telegram** (prêt à raconter à l'oral), avec archivage optionnel **Notion** et digests Markdown dans `digests/`.
 
 Conçu et maintenu par **Kenmeugne Calixte** (`Franck2040`).
 
-## Architecture
+## Nouveautés v2 (format digeste prêt à raconter)
+- **Actus & attaques réelles** ajoutées : **IT-Connect Sécurité (FR)**, **CERT-FR Menaces & Incidents (CTI)**, **BleepingComputer** et **The Hacker News** (ransomwares, DDoS, fuites de données, cyberattaques).
+- **Regroupement anti-spam** : plusieurs avis `noyau Linux` (Red Hat, Ubuntu, Debian, SUSE) sont fusionnés en **1 seule ligne claire**.
+- **Nettoyage du jargon** : suppression du texte répétitif CISA (`BOD 26-04`) et reformulation directe `Fait / Risque / Réflexe`.
+- **Top 6 équilibré max sur Telegram** (3 Actus/Attaques + 3 Failles/Pannes critiques = 1 seul message court, le reste est archivé dans `digests/latest.md` et Notion).
+- **Mode Journaliste IA (optionnel, 0 €)** : ajoutez une clé gratuite `GEMINI_API_KEY` (Google AI Studio) dans GitHub Secrets pour que chaque briefing soit réécrit en français oral fluide prêt à raconter (avec repli automatique sur le formateur local sans clé).
 
-```
-Sources officielles (RSS / JSON)
-  ├── CERT-FR Alertes & Avis (ANSSI · cert.cyber.gouv.fr)
-  ├── CISA KEV (vulnérabilités activement exploitées)
-  ├── Microsoft Azure Status (RSS officiel)
-  ├── GitHub Status (API incidents non résolus)
-  └── Cloudflare Status (API incidents non résolus)
-           │
-           ▼
-   src/watch.py (Python 3.12 stdlib, zéro dépendance)
-   ├── Filtrage par stack technique (config/sources.json)
-   ├── Priorisation automatique (CRITIQUE / HAUTE / INFO)
-   └── Dédoublonnage persistant (state/seen.json)
-           │
-           ├──▶ Telegram Bot (alertes mobiles instantanées)
-           ├──▶ Notion Database (archivage optionnel)
-           └──▶ digests/latest.md (journal versionné GitHub)
-```
+## Limite honnête connue : Microsoft 365
+Microsoft ne fournit plus de flux RSS public non authentifié pour Outlook/Teams/Copilot (`status.cloud.microsoft/m365/` est une application JS). En entreprise, brancher l'API **Microsoft Graph Service Health** (`ServiceHealth.Read.All`).
 
-## Fréquence d'exécution (GitHub Actions)
+## Guide pas à pas (où cliquer exactement)
 
-| Workflow | Fréquence | Rôle |
-| :--- | :--- | :--- |
-| `cyber-watch.yml` | 2x / jour (05:30 UTC et 17:00 UTC) + manuel | Veille CERT-FR + CISA KEV + Cloud, tests unitaires inclus |
-| `cloud-outage-watch.yml` | Toutes les 30 min (lun–ven, 07:00–18:30 UTC) + manuel | Détection rapide des pannes Cloud (Azure, GitHub, Cloudflare) |
+### 1. Secrets Telegram (obligatoire)
+1. Dans **Telegram**, cliquez sur la **barre de recherche en haut**, tapez `@BotFather`, sélectionnez le compte officiel avec la coche bleue, puis cliquez **Démarrer** en bas.
+2. Tapez `/newbot`, envoyez le nom d'affichage puis un identifiant finissant par `bot`, et copiez le token (`TELEGRAM_BOT_TOKEN`).
+3. Cliquez sur le lien `t.me/<votre_bot>` dans le message de confirmation puis cliquez **Démarrer** en bas.
+4. Retournez dans la **barre de recherche en haut de Telegram**, tapez `@userinfobot`, ouvrez le bot portant exactement `@UserInfoBot`, cliquez **Démarrer** et copiez le nombre en face de `Id:` (`TELEGRAM_CHAT_ID`).
+5. Sur GitHub (`Franck2040/cyber-cloud-watch`), cliquez sur l'onglet **Settings** (en haut à droite), puis dans le menu de gauche **Security -> Secrets and variables -> Actions -> bouton vert New repository secret** et créez `TELEGRAM_BOT_TOKEN` et `TELEGRAM_CHAT_ID`.
 
-## Limite honnête connue : Microsoft 365 (Outlook / Teams / Copilot)
-Microsoft ne publie plus de flux RSS public non authentifié pour l'état de santé Microsoft 365 :
-- Page publique officielle (application JS) : `https://status.cloud.microsoft/m365/`
-- Pour des alertes M365 automatiques par tenant en entreprise (stage / alternance), l'extension prévue consiste à brancher l'API **Microsoft Graph Service Health** (`ServiceHealth.Read.All`) via un enregistrement d'application Entra ID.
+### 2. Activer le mode « Journaliste IA » en français oral (optionnel, gratuit)
+1. Ouvrez `https://aistudio.google.com/apikey` dans votre navigateur et connectez-vous avec votre compte Google.
+2. Cliquez sur le bouton **Create API key** puis copiez la clé générée.
+3. Dans GitHub -> **Settings -> Security -> Secrets and variables -> Actions -> New repository secret** :
+   - Name : `GEMINI_API_KEY`
+   - Secret : collez votre clé -> cliquez **Add secret**.
 
-## Comment je mets cela en place ? (3 minutes)
-
-### 1. Activer les alertes Telegram (gratuit)
-1. Dans Telegram, ouvrir `@BotFather` et envoyer `/newbot`.
-2. Choisir un nom (ex. `Cyber Cloud Watch`) et un username finissant par `bot` -> copier le **token** (`TELEGRAM_BOT_TOKEN`).
-3. Ouvrir le nouveau bot et lui envoyer `/start` (obligatoire pour qu'il puisse vous écrire).
-4. Récupérer votre identifiant numérique (`TELEGRAM_CHAT_ID`) via `@userinfobot` (ou en ouvrant `https://api.telegram.org/bot<VOTRE_TOKEN>/getUpdates` dans un navigateur).
-5. Dans ce dépôt GitHub : **Settings -> Secrets and variables -> Actions -> New repository secret** :
-   - `TELEGRAM_BOT_TOKEN`
-   - `TELEGRAM_CHAT_ID`
-
-### 2. Activer l'archivage Notion (optionnel)
-Si ces secrets ne sont pas renseignés, la veille fonctionne normalement sur Telegram + Markdown sans erreur.
-1. Créer une intégration interne sur `https://www.notion.so/profile/integrations` -> copier le secret (`NOTION_TOKEN`).
-2. Créer une base Notion avec les propriétés suivantes :
-   - `Titre` (Title)
-   - `Source` (Select)
-   - `Catégorie` (Select)
-   - `Priorité` (Select)
-   - `Lien` (URL)
-   - `Date` (Date)
-3. Partager cette base avec votre intégration (`... -> Connections`) et copier son ID (`NOTION_DATABASE_ID`).
-4. Ajouter `NOTION_TOKEN` et `NOTION_DATABASE_ID` dans **GitHub Repository Secrets**.
-
-### 3. Lancer et tester immédiatement
-Dans l'onglet **Actions** de GitHub :
-1. Cliquer sur **Cyber & Cloud Daily Watch**.
-2. Cliquer sur **Run workflow** (laisser `dry_run: false` pour recevoir la première alerte Telegram et générer `digests/latest.md`).
+### 3. Tester immédiatement
+Dans GitHub -> onglet **Actions** (en haut) -> menu gauche **Cyber & Cloud Daily Watch** -> menu déroulant **Run workflow** à droite -> bouton vert **Run workflow**.
 
 ## Tests locaux
 
