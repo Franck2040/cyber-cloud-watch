@@ -1,5 +1,20 @@
 {
-  "last_run_utc": null,
-  "count": 0,
-  "seen_ids": []
+  "last_run_utc": "2026-11-18T12:48:26Z",
+  "count": 14,
+  "seen_ids": [
+    "certfr-avis-b3619da91f086d7f",
+    "cisa-kev-0f9d79c9d82bd432",
+    "cisa-kev-c29ffbb0c97090f4",
+    "certfr-avis-924557706a2614fe",
+    "certfr-avis-42904293d5432a11",
+    "certfr-avis-140b1f79d4a2445d",
+    "certfr-avis-4dcd16a70bb70877",
+    "certfr-avis-574ca3ec95b54f1a",
+    "cisa-kev-597ee64b179c0a7c",
+    "certfr-avis-91927187bda6be23",
+    "certfr-avis-71804e42213dd158",
+    "certfr-avis-0049f016caa8da9c",
+    "certfr-avis-9efe82c86887dde5",
+    "certfr-avis-45cf023f8f898323"
+  ]
 }
