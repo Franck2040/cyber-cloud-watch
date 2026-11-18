@@ -1,0 +1,46 @@
+name: Cloud Outage Rapid Watch
+
+on:
+  schedule:
+    # Toutes les 30 min du lundi au vendredi (07:00-18:30 UTC)
+    - cron: "*/30 7-18 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cyber-cloud-watch-state
+  cancel-in-progress: false
+
+jobs:
+  cloud-outage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check Cloud Outages (Azure, GitHub, Cloudflare)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+        run: python3 src/watch.py --mode cloud --lookback-days 2
+
+      - name: Commit updated state if new outage detected
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/seen.json digests/
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(outage): record cloud outage alert"
+            git push
+          else
+            echo "No new cloud outages."
+          fi

@@ -1,0 +1,100 @@
+{
+  "lookback_days_default": 7,
+  "max_items_per_run": 15,
+  "stack_keywords": [
+    "microsoft",
+    "windows",
+    "active directory",
+    "entra",
+    "exchange",
+    "outlook",
+    "sharepoint",
+    "teams",
+    "azure",
+    "aws",
+    "linux",
+    "ubuntu",
+    "debian",
+    "openssh",
+    "kernel",
+    "docker",
+    "kubernetes",
+    "cisco",
+    "fortinet",
+    "fortigate",
+    "palo alto",
+    "ivanti",
+    "vmware",
+    "esxi",
+    "nginx",
+    "apache",
+    "cloudflare",
+    "github",
+    "chrome",
+    "firefox",
+    "python",
+    "postgresql",
+    "zabbix",
+    "wazuh",
+    "n8n"
+  ],
+  "sources": [
+    {
+      "id": "certfr-alertes",
+      "name": "CERT-FR Alertes (ANSSI)",
+      "mode": "cyber",
+      "type": "rss",
+      "url": "https://cert.cyber.gouv.fr/alerte/feed/",
+      "fallback_url": "https://www.cert.ssi.gouv.fr/alerte/feed/",
+      "default_severity": "CRITIQUE",
+      "always_include": true
+    },
+    {
+      "id": "certfr-avis",
+      "name": "CERT-FR Avis (ANSSI)",
+      "mode": "cyber",
+      "type": "rss",
+      "url": "https://cert.cyber.gouv.fr/avis/feed/",
+      "fallback_url": "https://www.cert.ssi.gouv.fr/avis/feed/",
+      "default_severity": "HAUTE",
+      "always_include": false
+    },
+    {
+      "id": "cisa-kev",
+      "name": "CISA KEV (Exploitation active)",
+      "mode": "cyber",
+      "type": "cisa_kev_json",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "fallback_url": "https://raw.githubusercontent.com/cisagov/kev-data/develop/known_exploited_vulnerabilities.json",
+      "default_severity": "CRITIQUE",
+      "always_include": true
+    },
+    {
+      "id": "azure-status",
+      "name": "Microsoft Azure Status",
+      "mode": "cloud",
+      "type": "rss",
+      "url": "https://azurestatuscdn.azureedge.net/en-us/status/feed/",
+      "default_severity": "CRITIQUE",
+      "always_include": true
+    },
+    {
+      "id": "github-status",
+      "name": "GitHub Status",
+      "mode": "cloud",
+      "type": "statuspage_json",
+      "url": "https://www.githubstatus.com/api/v2/incidents/unresolved.json",
+      "default_severity": "CRITIQUE",
+      "always_include": true
+    },
+    {
+      "id": "cloudflare-status",
+      "name": "Cloudflare Status",
+      "mode": "cloud",
+      "type": "statuspage_json",
+      "url": "https://www.cloudflarestatus.com/api/v2/incidents/unresolved.json",
+      "default_severity": "CRITIQUE",
+      "always_include": true
+    }
+  ]
+}

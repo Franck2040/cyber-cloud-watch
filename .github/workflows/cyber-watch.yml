@@ -1,0 +1,73 @@
+name: Cyber & Cloud Daily Watch
+
+on:
+  schedule:
+    # 05:30 UTC = 06:30 Paris (hiver) / 07:30 Paris (ete) - lecture transports
+    - cron: "30 5 * * *"
+    # 17:00 UTC = 18:00 Paris (hiver) / 19:00 Paris (ete)
+    - cron: "0 17 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Mode d'execution (all, cyber, cloud)"
+        required: true
+        default: "all"
+        type: choice
+        options:
+          - all
+          - cyber
+          - cloud
+      dry_run:
+        description: "Test sans envoi Telegram/Notion ni modification de state"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cyber-cloud-watch-state
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run unit tests
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Run Cyber & Cloud Watch
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+        run: |
+          MODE="${{ inputs.mode || 'all' }}"
+          FLAGS="--mode ${MODE}"
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            FLAGS="${FLAGS} --dry-run"
+          fi
+          python3 src/watch.py ${FLAGS}
+
+      - name: Commit updated state and digests
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/seen.json digests/
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(watch): update daily cyber & cloud digest"
+            git push
+          else
+            echo "No changes to commit."
+          fi
