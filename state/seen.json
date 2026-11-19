@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-11-19T14:36:03Z",
-  "count": 74,
+  "last_run_utc": "2026-11-19T16:15:40Z",
+  "count": 75,
   "seen_ids": [
     "certfr-avis-b3619da91f086d7f",
     "cisa-kev-0f9d79c9d82bd432",
@@ -75,6 +75,7 @@
     "thehackernews-e85ae3ca046c9d8a",
     "thehackernews-674607981796ebbf",
     "thehackernews-25a2c7de44fc79a6",
-    "thehackernews-bf7b18d16c84f6af"
+    "thehackernews-bf7b18d16c84f6af",
+    "github-status-ea6164a96a8c2c3a"
   ]
 }
