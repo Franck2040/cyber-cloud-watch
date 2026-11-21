@@ -1,21 +1,20 @@
-# Journal Cyber & Cloud (2026-11-20 22:58 UTC)
+# Journal Cyber & Cloud (2026-11-21 13:37 UTC)
 
-Mode : `all` | Sujets retenus : **15**
+Mode : `all` | Sujets retenus : **14**
 
 | Niveau | Type | Source | Sujet | Date |
 | :--- | :--- | :--- | :--- | :--- |
-| **ACTU** | news | BleepingComputer | [Bell Canada says 'agentic' hacker stole enterprise customer data](https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/) | 2026-11-20 18:51 UTC |
-| **ACTU CLÉ** | news | BleepingComputer | [Hackers use autonomous AI tool Cairn to find zero-day, take over server](https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/) | 2026-11-20 17:30 UTC |
-| **ACTU CLÉ** | news | BleepingComputer | [Vendor data breach exposes Chase, Visa, Mastercard customer info](https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/) | 2026-11-20 15:58 UTC |
-| **ACTU CLÉ** | news | BleepingComputer | [Still tracking company passwords in spreadsheets? You’re flying blind.](https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/) | 2026-11-20 15:00 UTC |
-| **ACTU** | news | The Hacker News | [WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams](https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html) | 2026-11-20 17:57 UTC |
-| **ACTU** | news | The Hacker News | [Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control](https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html) | 2026-11-20 16:58 UTC |
-| **CRITIQUE** | vuln | CERT-FR Avis | [Multiples vulnérabilités dans Oracle Database Server (18 novembre 2026)](https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1561/) | 2026-11-18 00:00 UTC |
-| **CRITIQUE** | vuln | CERT-FR Avis | [Multiples vulnérabilités dans Oracle Java SE (18 novembre 2026)](https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1562/) | 2026-11-18 00:00 UTC |
-| **HAUTE** | vuln | CERT-FR Avis | [Multiples vulnérabilités dans Oracle MySQL (18 novembre 2026)](https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1563/) | 2026-11-18 00:00 UTC |
-| **CRITIQUE** | vuln | CERT-FR Avis | [Multiples vulnérabilités dans Oracle PeopleSoft (18 novembre 2026)](https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1564/) | 2026-11-18 00:00 UTC |
-| **CRITIQUE** | vuln | CERT-FR Avis | [Multiples vulnérabilités dans Oracle Weblogic (18 novembre 2026)](https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1565/) | 2026-11-18 00:00 UTC |
-| **CRITIQUE** | vuln | CERT-FR Avis | [Multiples vulnérabilités dans Oracle Virtualization (18 novembre 2026)](https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1566/) | 2026-11-18 00:00 UTC |
-| **CRITIQUE** | vuln | CERT-FR Avis | [Vulnérabilité dans VMware Tanzu (19 novembre 2026)](https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1568/) | 2026-11-19 00:00 UTC |
-| **CRITIQUE** | vuln | CERT-FR Avis | [Multiples vulnérabilités dans les produits Cisco (19 novembre 2026)](https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1573/) | 2026-11-19 00:00 UTC |
-| **CRITIQUE** | vuln | CERT-FR Avis | [Vulnérabilité dans les produits Palo Alto Networks (20 novembre 2026)](https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1584/) | 2026-11-20 00:00 UTC |
+| **ACTU** | news | The Hacker News | [GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys](https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html) | 2026-11-21 11:05 UTC |
+| **ACTU CLÉ** | news | The Hacker News | [Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access](https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html) | 2026-11-21 11:03 UTC |
+| **ACTU** | news | The Hacker News | [Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge](https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html) | 2026-11-21 08:49 UTC |
+| **HAUTE** | vuln | CERT-FR Avis | [Multiples vulnérabilités dans Apache Tomcat (20 novembre 2026)](https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1587/) | 2026-11-20 00:00 UTC |
+| **CRITIQUE** | vuln | CERT-FR Avis | [Multiples vulnérabilités dans les produits VMware (20 novembre 2026)](https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1598/) | 2026-11-20 00:00 UTC |
+| **CRITIQUE** | vuln | CISA KEV | [Apache Roller (CVE-2026-129448) : faille activement exploitée](https://nvd.nist.gov/vuln/detail/CVE-2026-129448) | 2026-11-20 |
+| **CRITIQUE** | vuln | CISA KEV | [Broadcom VMware vCenter (CVE-2026-123890) : faille activement exploitée](https://nvd.nist.gov/vuln/detail/CVE-2026-123890) | 2026-11-20 |
+| **CRITIQUE** | vuln | CISA KEV | [SAP NetWeaver (CVE-2025-42884) : faille activement exploitée](https://nvd.nist.gov/vuln/detail/CVE-2025-42884) | 2026-11-20 |
+| **CRITIQUE** | vuln | CISA KEV | [Cisco Expressway Series (CVE-2026-76466) : faille activement exploitée](https://nvd.nist.gov/vuln/detail/CVE-2026-76466) | 2026-11-20 |
+| **CRITIQUE** | vuln | CISA KEV | [Synology DiskStation Manager (DSM) (CVE-2024-10441) : faille activement exploitée](https://nvd.nist.gov/vuln/detail/CVE-2024-10441) | 2026-11-18 |
+| **CRITIQUE** | vuln | CISA KEV | [BerriAI LiteLLM (CVE-2026-40217) : faille activement exploitée](https://nvd.nist.gov/vuln/detail/CVE-2026-40217) | 2026-11-18 |
+| **CRITIQUE** | vuln | CISA KEV | [Vanderbilt University Research Electronic Data Capture (REDCap) (CVE-2026-90817) : faille activement exploitée](https://nvd.nist.gov/vuln/detail/CVE-2026-90817) | 2026-11-18 |
+| **CRITIQUE** | vuln | CISA KEV | [Apache Axis (CVE-2026-90436) : faille activement exploitée](https://nvd.nist.gov/vuln/detail/CVE-2026-90436) | 2026-11-18 |
+| **CRITIQUE** | vuln | CERT-FR Avis | [Noyau Linux (Red Hat, SUSE, Debian, Debian LTS, Ubuntu) : vague de correctifs critiques (5 avis regroupés)](https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1592/) | 2026-11-20 00:00 UTC |
