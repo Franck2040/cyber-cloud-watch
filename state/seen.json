@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-11-21T13:37:59Z",
-  "count": 139,
+  "last_run_utc": "2026-11-21T22:03:47Z",
+  "count": 142,
   "seen_ids": [
     "certfr-avis-b3619da91f086d7f",
     "cisa-kev-0f9d79c9d82bd432",
@@ -140,6 +140,9 @@
     "certfr-avis-c253dc2ffcafa402",
     "certfr-avis-dd4cc8ef30fb387f",
     "certfr-avis-2a65d859e72c65d5",
-    "certfr-avis-ecdfd02cd6ef0511"
+    "certfr-avis-ecdfd02cd6ef0511",
+    "bleepingcomputer-4b850dccc6f61934",
+    "bleepingcomputer-1afcd3a59ae986b2",
+    "bleepingcomputer-7bc81a5a7af0cb7a"
   ]
 }
