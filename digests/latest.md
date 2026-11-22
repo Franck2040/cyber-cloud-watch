@@ -1,9 +1,8 @@
-# Journal Cyber & Cloud (2026-11-21 22:03 UTC)
+# Journal Cyber & Cloud (2026-11-22 13:30 UTC)
 
-Mode : `all` | Sujets retenus : **3**
+Mode : `all` | Sujets retenus : **2**
 
 | Niveau | Type | Source | Sujet | Date |
 | :--- | :--- | :--- | :--- | :--- |
-| **ACTU CLÉ** | news | BleepingComputer | [Microsoft Entra Connect Health flaw exploited to steal tenant data](https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/) | 2026-11-21 18:01 UTC |
-| **ACTU CLÉ** | news | BleepingComputer | [BADBOX botnet returns with record-breaking 40 billion daily ad requests](https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/) | 2026-11-21 15:17 UTC |
-| **ACTU CLÉ** | news | BleepingComputer | [FBI reportedly hacked again, this time targeting nationwide police database](https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/) | 2026-11-21 14:26 UTC |
+| **ACTU CLÉ** | news | BleepingComputer | [Rackspace Spot breach let hackers access customer Kubernetes secrets](https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/) | 2026-11-21 22:59 UTC |
+| **ACTU CLÉ** | news | The Hacker News | [Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps](https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html) | 2026-11-22 05:03 UTC |
