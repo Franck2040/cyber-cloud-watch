@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-11-22T13:30:08Z",
-  "count": 144,
+  "last_run_utc": "2026-11-22T22:18:52Z",
+  "count": 146,
   "seen_ids": [
     "certfr-avis-b3619da91f086d7f",
     "cisa-kev-0f9d79c9d82bd432",
@@ -145,6 +145,8 @@
     "bleepingcomputer-1afcd3a59ae986b2",
     "bleepingcomputer-7bc81a5a7af0cb7a",
     "bleepingcomputer-1753dfa34f233b36",
-    "thehackernews-a4ab75288e1d5cd0"
+    "thehackernews-a4ab75288e1d5cd0",
+    "bleepingcomputer-a93229a7cfdb8879",
+    "bleepingcomputer-d1b2c619db697c53"
   ]
 }
