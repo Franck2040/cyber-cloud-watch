@@ -1,21 +1,7 @@
-# Journal Cyber & Cloud (2026-11-23 16:18 UTC)
+# Journal Cyber & Cloud (2026-11-23 18:56 UTC)
 
-Mode : `all` | Sujets retenus : **15**
+Mode : `cloud` | Sujets retenus : **1**
 
 | Niveau | Type | Source | Sujet | Date |
 | :--- | :--- | :--- | :--- | :--- |
-| **ACTU** | news | IT-Connect | [Microsoft Edge : avec le Lockdown Mode, Microsoft veut bloquer les attaques](https://www.it-connect.fr/edge-lockdown-mode-webgl-webgpu/) | 2026-11-23 10:30 UTC |
-| **ACTU** | news | IT-Connect | [Specops lance une API pour vérifier l’identité des utilisateurs dans vos outils : chatbots IA, ITSM, etc.](https://www.it-connect.fr/api-specops-authentication/) | 2026-11-23 08:00 UTC |
-| **ACTU** | news | IT-Connect | [GL.iNet : des pirates ont exploité le cloud GoodCloud pour infecter des routeurs et des KVM](https://www.it-connect.fr/gl-inet-goodcloud-routeurs-kvm-malware/) | 2026-11-23 07:49 UTC |
-| **ACTU** | news | BleepingComputer | [Microsoft testing fix for Windows 11 Bluetooth audio quality drops](https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/) | 2026-11-23 13:28 UTC |
-| **ACTU CLÉ** | news | BleepingComputer | [Microsoft confirms Windows printing issues affecting Forcepoint users](https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/) | 2026-11-23 09:11 UTC |
-| **ACTU CLÉ** | news | BleepingComputer | [CISA flags critical Cisco RCE flaw as actively exploited in attacks](https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/) | 2026-11-23 07:44 UTC |
-| **ACTU** | news | The Hacker News | [Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions](https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html) | 2026-11-23 13:22 UTC |
-| **ACTU** | news | The Hacker News | [Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning](https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html) | 2026-11-23 12:41 UTC |
-| **ACTU CLÉ** | news | The Hacker News | [N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation](https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html) | 2026-11-23 12:28 UTC |
-| **ACTU CLÉ** | news | The Hacker News | [Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE](https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html) | 2026-11-23 09:11 UTC |
-| **ACTU** | news | The Hacker News | [Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices](https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html) | 2026-11-23 09:04 UTC |
-| **ACTU** | news | The Hacker News | [AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms](https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html) | 2026-11-23 08:24 UTC |
-| **CRITIQUE** | vuln | CERT-FR Avis | [Multiples vulnérabilités dans les produits Palo Alto Networks (23 novembre 2026)](https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1600/) | 2026-11-23 00:00 UTC |
-| **HAUTE** | vuln | CERT-FR Avis | [Multiples vulnérabilités dans Microsoft Edge (23 novembre 2026)](https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1603/) | 2026-11-23 00:00 UTC |
-| **CRITIQUE** | vuln | CERT-FR Avis | [Vulnérabilité dans Microsoft Office (23 novembre 2026)](https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1604/) | 2026-11-23 00:00 UTC |
+| **HAUTE** | cloud | Cloudflare Status | [Panne Cloudflare Status (investigating) : Cloudflare Workers API – Delayed or Inconsistent Responses](https://www.cloudflarestatus.com/incidents/00dp7cliyqqt) | 2026-11-23 13:52 UTC |
