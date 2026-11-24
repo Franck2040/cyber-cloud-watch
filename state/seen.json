@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-11-23T18:56:16Z",
-  "count": 162,
+  "last_run_utc": "2026-11-24T03:10:41Z",
+  "count": 171,
   "seen_ids": [
     "certfr-avis-b3619da91f086d7f",
     "cisa-kev-0f9d79c9d82bd432",
@@ -163,6 +163,15 @@
     "certfr-avis-ca20227feede026e",
     "certfr-avis-58e0e3ccc152ffb9",
     "certfr-avis-ad81b9a118fd24f4",
-    "cloudflare-status-75c8aa49157a35ab"
+    "cloudflare-status-75c8aa49157a35ab",
+    "it-connect-secu-49d42a7c80dbcf47",
+    "bleepingcomputer-c79d901f04af9a08",
+    "bleepingcomputer-13a6a67e6f8d2365",
+    "bleepingcomputer-510dfe3913eea7b4",
+    "bleepingcomputer-af4a996513953076",
+    "thehackernews-28d484d1a9178824",
+    "cisa-kev-69ac86b50da2fca1",
+    "cisa-kev-e70684d9c8f1c18b",
+    "cloudflare-status-33839c1e4490e2aa"
   ]
 }
