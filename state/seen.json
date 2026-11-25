@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-11-25T15:53:19Z",
-  "count": 212,
+  "last_run_utc": "2026-11-25T17:45:39Z",
+  "count": 214,
   "seen_ids": [
     "certfr-avis-b3619da91f086d7f",
     "cisa-kev-0f9d79c9d82bd432",
@@ -213,6 +213,8 @@
     "thehackernews-93c63116562bb059",
     "thehackernews-536befb93145536a",
     "thehackernews-101bf11295fcdae7",
-    "thehackernews-4e84d4bb2e0010fe"
+    "thehackernews-4e84d4bb2e0010fe",
+    "cloudflare-status-f66ad5b23d327b0f",
+    "cloudflare-status-acad18e0678e3a55"
   ]
 }
